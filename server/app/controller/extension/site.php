@@ -55,7 +55,12 @@ class SiteController extends Controller {
         $month = $this->month[$month];
 
         $this->request('get', $day.'_'.$month);
-        var_dump($this->curl->response);
+        $string = $this->curl->response;
+
+        $dom = $this->registry->get('htmlParser')->getDomHtml($string);
+
+        $today = $dom->find('#firstHeading');
+        var_dump($today[0]->plaintext);
 
     }
 
