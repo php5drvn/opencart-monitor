@@ -1,0 +1,768 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="174459d2-5976-4b92-aaa6-7ff7df529988" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/server/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/system/library/engine/loader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/system/startup.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/server/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-dist.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/config-dist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/php.ini" beforeDir="false" afterPath="$PROJECT_DIR$/server/php.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/library/loader.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/library/opencart.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/system/library/opencart.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/startup.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/cookie/cookie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/system/storage/cookie/cookie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/files/update_state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/system/storage/files/update_state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/log/change.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/system/storage/log/change.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/log/test.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/system/storage/log/test.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/system/storage/log/update.log" beforeDir="false" afterPath="$PROJECT_DIR$/server/system/storage/log/update.log" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/opencartmonitor/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/controller/extension/extension.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="35" column="67" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="67" />
+              <folding>
+                <element signature="n#getExtension#0;n#ExtensionController#0;n#!!top" />
+                <element signature="n#editExtension#0;n#ExtensionController#0;n#!!top" />
+                <element signature="n#deleteExtension#0;n#ExtensionController#0;n#!!top" />
+                <element signature="n#getPagination#0;n#ExtensionController#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/app/model/extension/reception.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="47" />
+              <folding>
+                <element signature="n#getExtension#0;n#Reception#0;n#!!top" />
+                <element signature="n#editExtension#0;n#Reception#0;n#!!top" />
+                <element signature="n#uploadFile#0;n#Reception#0;n#!!top" />
+                <element signature="n#deleteExtension#0;n#Reception#0;n#!!top" />
+                <element signature="n#addExtension#0;n#Reception#0;n#!!top" />
+                <element signature="n#refreshExtension#0;n#Reception#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/app/controller/extension/site.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+              <folding>
+                <element signature="n#request#0;n#SiteController#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/system/library/opencart.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+              <folding>
+                <element signature="n#__construct#0;n#Opencart#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>find</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/opencartmonitor/system/startup.php" />
+        <option value="$PROJECT_DIR$/opencartmonitor/config.php" />
+        <option value="$PROJECT_DIR$/opencartmonitor/index.php" />
+        <option value="$PROJECT_DIR$/system/library/Registry.php" />
+        <option value="$PROJECT_DIR$/system/library/registry.php" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/system/library/Router.php" />
+        <option value="$PROJECT_DIR$/app/controller/common/error.php" />
+        <option value="$PROJECT_DIR$/system/library/router.php" />
+        <option value="$PROJECT_DIR$/system/library/controller.php" />
+        <option value="$PROJECT_DIR$/app/model/extension/test.php" />
+        <option value="$PROJECT_DIR$/system/library/config.php" />
+        <option value="$PROJECT_DIR$/system/startup.php" />
+        <option value="$PROJECT_DIR$/system/library/loader.php" />
+        <option value="$PROJECT_DIR$/app/model/extension/extension.php" />
+        <option value="$PROJECT_DIR$/client/package.json" />
+        <option value="$PROJECT_DIR$/app/controller/common/home.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/app/controller/extension/extension.php" />
+        <option value="$PROJECT_DIR$/client/public/index.html" />
+        <option value="$PROJECT_DIR$/server/system/library/model.php" />
+        <option value="$PROJECT_DIR$/server/system/library/loader.php" />
+        <option value="$PROJECT_DIR$/server/system/library/html_dom_parser.php" />
+        <option value="$PROJECT_DIR$/server/system/startup.php" />
+        <option value="$PROJECT_DIR$/server/app/controller/common/home.php" />
+        <option value="$PROJECT_DIR$/server/app/model/extension/extension_curl.php" />
+        <option value="$PROJECT_DIR$/client/src/main.js" />
+        <option value="$PROJECT_DIR$/server/index.php" />
+        <option value="$PROJECT_DIR$/client/src/components/Popup.vue" />
+        <option value="$PROJECT_DIR$/server/vendor/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/HtmlDomParser.php" />
+        <option value="$PROJECT_DIR$/server/system/library/html_parser.php" />
+        <option value="$PROJECT_DIR$/server/system/library/engine/router.php" />
+        <option value="$PROJECT_DIR$/server/system/library/opencart.php" />
+        <option value="$PROJECT_DIR$/server/app/model/extension/reception.php" />
+        <option value="$PROJECT_DIR$/client/src/components/Navbar.vue" />
+        <option value="$PROJECT_DIR$/client/src/components/Admin.vue" />
+        <option value="$PROJECT_DIR$/client/src/router.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Extensions.vue" />
+        <option value="$PROJECT_DIR$/client/src/components/Dialog.vue" />
+        <option value="D:/Vitaly/Useful Files/ProductGenerator.php" />
+        <option value="$PROJECT_DIR$/../localhost1/index.php" />
+        <option value="$PROJECT_DIR$/server/app/controller/extension/extension.php" />
+        <option value="$PROJECT_DIR$/client/src/views/Admin.vue" />
+        <option value="$PROJECT_DIR$/server/app/model/extension/extension.php" />
+        <option value="$PROJECT_DIR$/client/src/App.vue" />
+        <option value="$PROJECT_DIR$/client/src/components/AddExtension.vue" />
+        <option value="$PROJECT_DIR$/../localhost/index.php" />
+        <option value="$PROJECT_DIR$/server/app/controller/extension/site.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/opencartmonitor/vendor/composer" />
+      <path value="$PROJECT_DIR$/opencartmonitor/vendor/php-curl-class/php-curl-class" />
+      <path value="$PROJECT_DIR$/opencartmonitor/vendor/sunra/php-simple-html-dom-parser" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="extension" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OpencartMonitor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OpencartMonitor" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+              <item name="system" type="462c0819:PsiDirectoryNode" />
+              <item name="library" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../localhost" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.HTML" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\OpencartMonitor\client\src\components" />
+      <recent name="C:\OpenServer\domains\OpencartMonitor\client\src\views" />
+      <recent name="C:\OpenServer\domains\OpencartMonitor\server\system\library\engine" />
+      <recent name="C:\OpenServer\domains\OpencartMonitor\server" />
+      <recent name="C:\OpenServer\domains\OpencartMonitor\client" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\OpencartMonitor\opencartmonitor\system" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\seo\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="174459d2-5976-4b92-aaa6-7ff7df529988" name="Default Changelist" comment="" />
+      <created>1549972668675</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549972668675</updated>
+      <workItem from="1549972669846" duration="12577000" />
+      <workItem from="1550042393861" duration="27471000" />
+      <workItem from="1550128481100" duration="24554000" />
+      <workItem from="1550214664553" duration="22648000" />
+      <workItem from="1550474095673" duration="605000" />
+      <workItem from="1550566706970" duration="20424000" />
+      <workItem from="1550646217155" duration="21216000" />
+      <workItem from="1550733262744" duration="6594000" />
+      <workItem from="1550821259616" duration="3637000" />
+      <workItem from="1551197034449" duration="908000" />
+      <workItem from="1551251831352" duration="988000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="141622000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Favorites" order="0" sideWeight="0.41640705" side_tool="true" weight="0.20202559" />
+      <window_info id="Structure" order="1" sideWeight="0.496136" side_tool="true" weight="0.2510661" />
+      <window_info id="Gulp" order="2" sideWeight="0.28551912" side_tool="true" weight="0.15298508" />
+      <window_info id="npm" order="3" sideWeight="0.503864" side_tool="true" visible="true" weight="0.12367223" />
+      <window_info content_ui="combo" id="Project" order="4" sideWeight="0.49468893" side_tool="true" visible="true" weight="0.19189766" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.48347548" side_tool="true" weight="0.14142539" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.48880598" weight="0.373444" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.5165245" visible="true" weight="0.14142539" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4978678" weight="0.3281412" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49913496" weight="0.3048523" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.4977778" weight="0.32628062" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="9" sideWeight="0.49946696" visible="true" weight="0.43775934" />
+      <window_info anchor="bottom" id="File Transfer" order="10" sideWeight="0.48444444" weight="0.19409283" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="Run" order="12" sideWeight="0.5053111" visible="true" weight="0.4814433" />
+      <window_info anchor="bottom" id="Docker" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="15" />
+      <window_info anchor="right" id="Database" order="0" weight="0.3272921" />
+      <window_info anchor="right" id="Commander" order="1" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Git Scope" order="4" sideWeight="0.5013624" side_tool="true" weight="0.10714286" />
+      <window_info anchor="right" x="0" y="0" width="141" height="880" id="Documentation" order="5" sideWeight="0.5032595" side_tool="true" weight="0.21321961" />
+      <window_info anchor="right" id="Remote Host" order="6" sideWeight="0.49674055" weight="0.48777777" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/src/assets/logo.png" />
+    <entry file="file://$PROJECT_DIR$/client/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/library/engine/model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/library/engine/registry.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="35" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controller/common/error.php" />
+    <entry file="file://$PROJECT_DIR$/server/app/controller/common/home.php" />
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/src/Curl/Decoder.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/examples/delete.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/examples/upload_file.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/examples/custom.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/docs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/src/Curl/Curl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4623">
+          <caret line="1048" column="26" selection-start-line="1048" selection-start-column="20" selection-end-line="1048" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/plugins/vuetify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/startup.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="38" column="30" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/Home.vue" />
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/examples/coinbase_account_balance.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/HtmlDomParser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="70" lean-forward="true" selection-start-line="4" selection-start-column="70" selection-end-line="4" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/sunra/php-simple-html-dom-parser/Src/Sunra/PhpSimple/simplehtmldom_1_5/simple_html_dom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="507" column="11" selection-start-line="507" selection-start-column="7" selection-end-line="507" selection-end-column="11" />
+          <folding>
+            <element signature="e#3513#4552#0#PHP" />
+            <element signature="e#4582#5078#0#PHP" />
+            <element signature="e#5102#5186#0#PHP" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/library/html_parser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="235" selection-start-line="7" selection-start-column="235" selection-end-line="7" selection-end-column="235" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/storage/cookie/cookie.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/storage/files/update_state.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/storage/log/change.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/storage/log/test.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/storage/log/update.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/library/engine/loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="736">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+          <folding>
+            <element signature="n#model#0;n#Loader#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/library/engine/router.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="49" lean-forward="true" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/examples/get_base_url_1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/www/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/www/run.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/vendor/php-curl-class/php-curl-class/www/img/screencast.gif">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Admin.vue" />
+    <entry file="file://$PROJECT_DIR$/client/src/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../localhost1/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="636">
+          <caret line="1084" column="1" selection-start-line="1084" selection-start-column="1" selection-end-line="1084" selection-end-column="1" />
+          <folding>
+            <element signature="e#140#1062#0#PHP" />
+            <element signature="n#queryDefinition#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#deleteStore#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#deleteDatabase#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#createStore#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#createDatabase#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#uploadFiles#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#removeFiles#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#correctPermissions#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#configDefinition#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#adminConfigDefinition#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#fillDatabase#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#installShopunity#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#getAllFolders#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#getAllDatabases#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#showPage#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#style#0;n#ol#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#a#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#connectMysqli#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#get_git_config#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#get_defined_value#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#install_mbooth#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#download#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#move_dir#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#remove_dir#0;n#OpencartInstaller#0;n#!!top" />
+            <element signature="n#DBMySQLi#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Vitaly/Useful Files/ProductGenerator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="528" selection-start-line="528" selection-end-line="528" />
+          <folding>
+            <element signature="e#203#737#0#PHP" />
+            <element signature="e#770#1377#0#PHP" />
+            <element signature="e#2858#2968#0#PHP" />
+            <element signature="e#3077#3167#0#PHP" />
+            <element signature="e#3218#3274#0#PHP" />
+            <element signature="e#3390#3474#0#PHP" />
+            <element signature="e#3502#3937#0#PHP" />
+            <element signature="e#3967#4011#0#PHP" />
+            <element signature="e#4042#4112#0#PHP" />
+            <element signature="n#log#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#create#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createCategories#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createCategoryInfo#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createProducts#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createProductInfo#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createAttributeGroups#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createAttribute#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createProductAttribute#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createManufacturer#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#createReviews#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#getLastImage#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#countTotalIterations#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#sql_connect#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#sql_query#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#sql_escape#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#isPostValid#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#form#0;n#ProductGenerator#0;n#!!top" />
+            <element signature="n#error#0;n#ProductGenerator#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../localhost/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2438">
+          <caret line="544" column="10" lean-forward="true" selection-start-line="544" selection-start-column="10" selection-end-line="544" selection-end-column="10" />
+          <folding>
+            <element signature="e#140#1062#0#PHP" />
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/views/Admin.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="116" selection-start-line="22" selection-start-column="116" selection-end-line="22" selection-end-column="116" />
+          <folding>
+            <element signature="n#v-dialog#0;n#v-container#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/AddExtension.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1219">
+          <caret line="53" column="97" selection-start-line="53" selection-start-column="97" selection-end-line="53" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Extensions.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="73" selection-start-line="3" selection-start-column="73" selection-end-line="3" selection-end-column="73" />
+          <folding>
+            <element signature="n#v-card#0;n#div#0;n#template#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Navbar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="68" selection-start-line="27" selection-start-column="68" selection-end-line="27" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Dialog.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3588">
+          <caret line="197" column="40" lean-forward="true" selection-start-line="197" selection-start-column="40" selection-end-line="197" selection-end-column="40" />
+          <folding>
+            <element signature="n#div#0;n#v-card-text#0;n#v-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="n#style#0;n#v-layout#0;n#div#4;n#v-flex#0;n#v-layout#0;n#div#1;n#v-card-text#0;n#v-card#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="n#div#2;n#v-card-text#0;n#v-card#0;n#div#0;n#template#0;n#!!top" />
+            <element signature="e#10438#10507#0" />
+            <element signature="e#10658#10944#0" />
+            <element signature="e#10976#11263#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/model/extension/extension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="664">
+          <caret line="268" column="48" selection-start-line="268" selection-start-column="48" selection-end-line="268" selection-end-column="48" />
+          <folding>
+            <element signature="n#getExtensionsData#0;n#Extension#0;n#!!top" />
+            <element signature="n#getExtensionId#0;n#Extension#0;n#!!top" />
+            <element signature="n#parseExtensionData#0;n#Extension#0;n#!!top" />
+            <element signature="n#parseForEditExtension#0;n#Extension#0;n#!!top" />
+            <element signature="n#countPagination#0;n#Extension#0;n#!!top" />
+            <element signature="n#getImage#0;n#Extension#0;n#!!top" />
+            <element signature="n#getBanner#0;n#Extension#0;n#!!top" />
+            <element signature="n#getCompatibility#0;n#Extension#0;n#!!top" />
+            <element signature="n#getCategory#0;n#Extension#0;n#!!top" />
+            <element signature="n#getLicense#0;n#Extension#0;n#!!top" />
+            <element signature="n#getLicensePeriod#0;n#Extension#0;n#!!top" />
+            <element signature="n#getAlertPublishNotify#0;n#Extension#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controller/extension/extension.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="67" selection-start-line="34" selection-start-column="8" selection-end-line="35" selection-end-column="67" />
+          <folding>
+            <element signature="n#getExtension#0;n#ExtensionController#0;n#!!top" />
+            <element signature="n#editExtension#0;n#ExtensionController#0;n#!!top" />
+            <element signature="n#deleteExtension#0;n#ExtensionController#0;n#!!top" />
+            <element signature="n#getPagination#0;n#ExtensionController#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/model/extension/reception.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="47" />
+          <folding>
+            <element signature="n#getExtension#0;n#Reception#0;n#!!top" />
+            <element signature="n#editExtension#0;n#Reception#0;n#!!top" />
+            <element signature="n#uploadFile#0;n#Reception#0;n#!!top" />
+            <element signature="n#deleteExtension#0;n#Reception#0;n#!!top" />
+            <element signature="n#addExtension#0;n#Reception#0;n#!!top" />
+            <element signature="n#refreshExtension#0;n#Reception#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/system/library/opencart.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+          <folding>
+            <element signature="n#__construct#0;n#Opencart#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/app/controller/extension/site.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="56" column="47" lean-forward="true" selection-start-line="56" selection-start-column="47" selection-end-line="56" selection-end-column="47" />
+          <folding>
+            <element signature="n#request#0;n#SiteController#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

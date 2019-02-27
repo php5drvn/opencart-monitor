@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php-curl-class/php-curl-class": "^7.3",
+        "sunra/php-simple-html-dom-parser": "^1.5",
+        "curl/curl": "^2.2"
+    }
+}
